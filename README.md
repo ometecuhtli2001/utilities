@@ -10,4 +10,4 @@ Scripts for working with virtual machines
 ### vboxVMaddresses.sh
 List currently running VirtualBox VMs and the associated IPv4 address for each
 
-'Note:' You must run this script as the same user under which the VMs run or you won't get anything in the list!
+**Note:** You must run this script as the same user under which the VMs run or you won't get anything in the list!
