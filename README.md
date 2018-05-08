@@ -15,8 +15,8 @@ List currently running VirtualBox VMs and the associated IPv4 address for each
 ## ServiceNow
 Scripts for working with ServiceNow
 
-### sn_rest_api.sh
-Use the ServiceNow REST interface to query a table for data and return the results in XML.  This example script illustrates several things:
-1. How to actually use the REST interface to get data
+### ServiceNow_rest_api.sh
+Use the ServiceNow REST interface to query a table for data and return the results in XML or JSON.  This example script illustrates several things:
+1. How to actually use the REST interface to get data in JSON and XML
 2. How to use cURL when accessing the Internet through something that looks at HTTPS traffic (remove the `--cacert /path/to/FOO-Decrypt.txt.pem` if you don't have anything like that on your network)
 3. How to query the specified table in ServiceNow, as opposed to getting a dump of all the records in the table.  This query returns the record associated with the Windows Server named FLUFFY.
